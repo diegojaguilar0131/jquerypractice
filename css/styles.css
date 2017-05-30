@@ -1,12 +1,24 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
 }
 
-p {
+#test-showing {
+  display: none;
+}
+.walrusclick {
   cursor: pointer;
-  color: lightblue;
+  color: #0088cc;
 }
 
-p:hover {
+.walrusclick:hover {
+  text-decoration: underline;
+}
+
+.walrusclick2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.walrusclick2:hover {
   text-decoration: underline;
 }
